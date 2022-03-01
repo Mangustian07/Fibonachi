@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>yse4enie stroky</title>
+</head>
+<body>
+<script type="text/javascript">	
+	function truncate(str, ml){
+		return str.length<=ml ? str : str.substring(0,ml)+'...';
+	}
+	let str = prompt("Введите предложение");
+	let ml = 20;
+	alert(truncate(str, ml));
+</script>
+</body>
+</html>

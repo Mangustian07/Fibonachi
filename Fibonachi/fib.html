@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>FibNumber</title>
+</head>
+<body>
+<script type="text/javascript">
+	function fib(n){
+		if(n<=1){
+			return n;
+		}
+		else{
+			return n = fib(n-1)+fib(n-2);
+		}
+	}
+	let n=prompt("Введите, какое число Фибоначчи хотите увидить");
+	console.log("Число Фибоначчи = "+fib(n));
+</script>
+</body>
+</html>
